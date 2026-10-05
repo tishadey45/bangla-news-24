@@ -17,3 +17,15 @@ layout.tsx file e font import korte hobe
 
 
 src>components>header.tsx file create korte hobe
+
+daisyUI install korte hobe
+daisyUI import korte hobe> src/app/globals.css
+npm run dev->terminale
+
+src>components>Marquee.tsx file create korte hobe--->heading
+home page e Marquee component import korte hobe
+
+npm i react-marquee-text--->install korte hobe
+(https://www.npmjs.com/package/react-marquee-text)
+
+
