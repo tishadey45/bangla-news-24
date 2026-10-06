@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-export default async function newsPage({params}: {params: {newsId:string}}) {
+export default async function newsDetailsPage({params}: {params: {newsId:string}}) {
    const {newsId} = await params
 
     const res = await fetch(`https://news-api-v2.vercel.app/api/article/${newsId}`)
