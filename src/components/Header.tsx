@@ -1,5 +1,6 @@
 import Image from "next/image";
 import NavLinks from "./NavLinks";
+import UserInfo from "./UserInfo";
 
 export default function Header() {
   const date = new Date().toLocaleDateString("bn-BD", {
@@ -21,10 +22,7 @@ export default function Header() {
       </div>
 
       {/* Right - Buttons */}
-      <div className="flex justify-end gap-4">
-        <button className="btn ">সাইন ইন</button>
-        <button className="btn bg-red-700 text-white">সাইন আপ</button>
-      </div>
+     <UserInfo/>
       <NavLinks/>
     </header>
   );

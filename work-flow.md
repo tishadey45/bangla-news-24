@@ -67,3 +67,49 @@ Bulit-in role->Atlas Admin
 
 
 <!-- Authentication method -->
+
+
+<!-- mount handler -->
+app/api/auth/[...all]/route.ts file create korte hobe
+
+<!-- create clint instance -->
+src/lib/auth-client.ts file create korte hobe
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- GOOGLE AUTH -->
+<!-- google cloud console -->
+
+google cloud er pase buttone click korte hobe>new project create korte hobe>create project click
+
+google cloud console>left e APIs & Services>credentials>create credentials click>configure consent screen click>Get started click>
+1.app information>app name->project name, user support email->gmail email,>next click> 
+
+2.Audience>select->External>create click>next click
+
+3.contact information>email >next
+
+4.Finish>agree>continue>create
+
+create oAuth clint buttone click
+application type->web application>name->project name>create click>Add your redirect URIs>create.
+ better-auth>get your google credentials>Add your redirect URIs
+
+
+
+client ID and client secret copy korte hobe>.env file bosate hobe
+
+
+<!-- GITHUB AUTH -->
+
+github>
