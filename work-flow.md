@@ -109,7 +109,15 @@ application type->web application>name->project name>create click>Add your redir
 
 client ID and client secret copy korte hobe>.env file bosate hobe
 
+<!-- deploy er pore live link e google login issue solution-->
+
+Authorised redirect URIs "/api/auth/callback/google" add korte hobe
+https://bangla-news-24-mu.vercel.app/api/auth/callback/google
+
+
 
 <!-- GITHUB AUTH -->
 
 github>
+
+
